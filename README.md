@@ -4,9 +4,20 @@ streaming.sh are a set of scripts to help you stream to [Twitch.tv](https://twit
 
 # Table of contents
 
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+# Installation
+
+[(Back to top)](#table-of-contents)
+
+Using [fisher](https://github.com/jorgebucaran/fisher)
+
+```fish
+fisher add joaothallis/streaming.sh
+```
 
 # Usage
 
@@ -15,13 +26,13 @@ streaming.sh are a set of scripts to help you stream to [Twitch.tv](https://twit
 To start streaming:
 
 ```fish
-. start_streaming.sh
+start_streaming
 ```
 
 To stop streaming:
 
 ```fish
-. stop_streaming.sh
+stop_streaming
 ```
 
 # Contributing
