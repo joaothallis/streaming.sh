@@ -1,6 +1,6 @@
 # streaming.sh
 
-streaming.sh are a set of scripts to help you stream your to Twitch.tv
+streaming.sh are a set of scripts to help you stream to [Twitch.tv](https://twitch.tv) using [OBS](https://obsproject.com/).
 
 # Table of contents
 
