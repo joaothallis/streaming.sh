@@ -4,4 +4,4 @@ abbr -e nvim
 abbr -e env
 abbr -e export
 
-obs --stopstreaming
+obs --exit
