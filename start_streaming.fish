@@ -9,12 +9,13 @@ switch (uname -a)
     case 'Darwin*'
         open -a "Google Chrome"
 
-        open -a "OBS"
+        open -a OBS
     case '*'
+        gsettings set org.gnome.desktop.notifications show-banners false
+
         google-chrome-stable &
 
-        if not pgrep -x "obs" > /dev/null
+        if not pgrep -x obs >/dev/null
             obs --startstreaming
         end
 end
-
