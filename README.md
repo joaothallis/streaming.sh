@@ -15,13 +15,13 @@ streaming.sh are a set of scripts to help you stream to [Twitch.tv](https://twit
 To start streaming:
 
 ```fish
-. start_streaming.sh
+. start_streaming.fish
 ```
 
 To stop streaming:
 
 ```fish
-. stop_streaming.sh
+. stop_streaming.fish
 ```
 
 # Contributing
