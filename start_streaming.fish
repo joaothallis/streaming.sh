@@ -11,6 +11,8 @@ switch (uname -a)
 
         open -a OBS
     case '*'
+        xclip -sel clip </dev/null
+
         gsettings set org.gnome.desktop.notifications show-banners false
 
         google-chrome-stable &
