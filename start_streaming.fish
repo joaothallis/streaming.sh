@@ -1,4 +1,5 @@
 #!/usr/bin/env fish
+clear
 builtin history clear
 
 abbr --add nvim "nvim -i NONE"
